@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="04ef6490-23d9-4d12-8026-de899678a035" name="Changes" comment="Новая ветка и файл readme">
-      <change afterPath="$PROJECT_DIR$/config.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/__init__.py" afterDir="false" />
+    <list default="true" id="04ef6490-23d9-4d12-8026-de899678a035" name="Changes" comment="Структура">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/abstract_get_api.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/abstract_get_api.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hh_company.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/hh_company.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +45,9 @@
   "associatedIndex": 7
 }]]></component>
   <component name="ProjectId" id="2kp2qIr7GGCuSDc0ngnSOgJ52Db" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="autoscrollToSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -56,6 +59,11 @@
     "git-widget-placeholder": "develop"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\IvanK\PycharmProjects\course_work_5" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="course_work_5" />
@@ -112,12 +120,21 @@
       <option name="project" value="LOCAL" />
       <updated>1723966919587</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Структура">
+      <option name="closed" value="true" />
+      <created>1723967203041</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1723967203041</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
     <MESSAGE value="Новая ветка и файл readme" />
-    <option name="LAST_COMMIT_MESSAGE" value="Новая ветка и файл readme" />
+    <MESSAGE value="Структура" />
+    <option name="LAST_COMMIT_MESSAGE" value="Структура" />
   </component>
 </project>
