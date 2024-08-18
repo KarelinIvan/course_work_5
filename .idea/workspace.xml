@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="04ef6490-23d9-4d12-8026-de899678a035" name="Changes" comment="Класс для работы с компаниями">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="04ef6490-23d9-4d12-8026-de899678a035" name="Changes" comment="Класс для работы с компаниями 2-й коммит">
       <change beforePath="$PROJECT_DIR$/src/company.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/company.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -151,7 +150,15 @@
       <option name="project" value="LOCAL" />
       <updated>1723970838947</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Класс для работы с компаниями 2-й коммит">
+      <option name="closed" value="true" />
+      <created>1723972032224</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1723972032224</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -160,6 +167,7 @@
     <MESSAGE value="Структура" />
     <MESSAGE value="Получение данных о вакансиях с hh.ru" />
     <MESSAGE value="Класс для работы с компаниями" />
-    <option name="LAST_COMMIT_MESSAGE" value="Класс для работы с компаниями" />
+    <MESSAGE value="Класс для работы с компаниями 2-й коммит" />
+    <option name="LAST_COMMIT_MESSAGE" value="Класс для работы с компаниями 2-й коммит" />
   </component>
 </project>
