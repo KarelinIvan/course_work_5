@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="04ef6490-23d9-4d12-8026-de899678a035" name="Changes" comment="Класс для работы с компаниями 2-й коммит">
-      <change beforePath="$PROJECT_DIR$/src/company.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/company.py" afterDir="false" />
+    <list default="true" id="04ef6490-23d9-4d12-8026-de899678a035" name="Changes" comment="Класс для работы с компаниями 3-й коммит">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/vacancy.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/vacancy.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -158,7 +159,15 @@
       <option name="project" value="LOCAL" />
       <updated>1723972032224</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Класс для работы с компаниями 3-й коммит">
+      <option name="closed" value="true" />
+      <created>1723972382992</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1723972382992</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -168,6 +177,7 @@
     <MESSAGE value="Получение данных о вакансиях с hh.ru" />
     <MESSAGE value="Класс для работы с компаниями" />
     <MESSAGE value="Класс для работы с компаниями 2-й коммит" />
-    <option name="LAST_COMMIT_MESSAGE" value="Класс для работы с компаниями 2-й коммит" />
+    <MESSAGE value="Класс для работы с компаниями 3-й коммит" />
+    <option name="LAST_COMMIT_MESSAGE" value="Класс для работы с компаниями 3-й коммит" />
   </component>
 </project>
