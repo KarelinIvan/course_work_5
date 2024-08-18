@@ -8,7 +8,7 @@ from src.hh_company import HeadHunterCompany
 from src.hh_vacancy import HeadHunterVacancy
 from config import config
 
-companies_ids = []
+companies_ids = [1740, 15478, 8620, 3529, 78638, 4006, 4504679, 561525, 64174, 8642172]
 
 
 def get_and_save_company_data(database_name: str, params: dict):

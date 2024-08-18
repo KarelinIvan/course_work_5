@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="04ef6490-23d9-4d12-8026-de899678a035" name="Changes" comment="коммит">
+    <list default="true" id="04ef6490-23d9-4d12-8026-de899678a035" name="Changes" comment=" 6-й коммит">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/datebase.ini" beforeDir="false" afterPath="$PROJECT_DIR$/datebase.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,23 +56,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.DBManager.executor": "Debug",
-    "Python.abstract_get_api.executor": "Debug",
-    "Python.company.executor": "Debug",
-    "Python.config.executor": "Debug",
-    "Python.employer.executor": "Debug",
-    "Python.hh_api.executor": "Debug",
-    "Python.hh_company.executor": "Debug",
-    "Python.hh_vacancy.executor": "Debug",
-    "Python.main.executor": "Run",
-    "Python.utils.executor": "Debug",
-    "Python.vacancy.executor": "Debug",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "develop"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.DBManager.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.abstract_get_api.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.company.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.config.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.employer.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.hh_api.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.hh_company.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.hh_vacancy.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.utils.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.vacancy.executor&quot;: &quot;Debug&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;develop&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\IvanK\PycharmProjects\course_work_5" />
@@ -342,7 +341,15 @@
       <option name="project" value="LOCAL" />
       <updated>1723997720816</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary=" 6-й коммит">
+      <option name="closed" value="true" />
+      <created>1723999673062</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1723999673062</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -357,6 +364,7 @@
     <MESSAGE value="Класс для подключения к БД 1-й коммит" />
     <MESSAGE value="Класс для подключения к БД 2-й коммит" />
     <MESSAGE value="коммит" />
-    <option name="LAST_COMMIT_MESSAGE" value="коммит" />
+    <MESSAGE value=" 6-й коммит" />
+    <option name="LAST_COMMIT_MESSAGE" value=" 6-й коммит" />
   </component>
 </project>
