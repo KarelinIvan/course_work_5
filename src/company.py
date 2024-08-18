@@ -1,3 +1,5 @@
+from typing import Any
+
 class Company:
     """
     Класс для работы с компанией
@@ -25,3 +27,20 @@ class Company:
             f"URL адрес компании: {self.site_url}\n"
             f"Количество открытых вакансий: {self.open_vacancies}\n"
         )
+
+@classmethod
+def from_company_cls(cls, company_date: dict) -> Any:
+    """
+    Метод возвращает экземпляр класса
+    """
+    if isinstance(company_date, dict):
+        return cls(
+            company_date.get("id"),
+            company_date.get("name"),
+            company_date.get("description", "нет описания"),
+            company_date.get("site_url", "нет URL"),
+            company_date.get("open_vacancies", 0)
+        )
+    else:
+        print("Ошибка: данные компании должны быть словарем")
+        return None

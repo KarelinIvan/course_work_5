@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="04ef6490-23d9-4d12-8026-de899678a035" name="Changes" comment="Получение данных о вакансиях с hh.ru" />
+    <list default="true" id="04ef6490-23d9-4d12-8026-de899678a035" name="Changes" comment="Класс для работы с компаниями">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/company.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/company.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -140,7 +143,15 @@
       <option name="project" value="LOCAL" />
       <updated>1723969640308</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Класс для работы с компаниями">
+      <option name="closed" value="true" />
+      <created>1723970838947</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1723970838947</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -148,6 +159,7 @@
     <MESSAGE value="Новая ветка и файл readme" />
     <MESSAGE value="Структура" />
     <MESSAGE value="Получение данных о вакансиях с hh.ru" />
-    <option name="LAST_COMMIT_MESSAGE" value="Получение данных о вакансиях с hh.ru" />
+    <MESSAGE value="Класс для работы с компаниями" />
+    <option name="LAST_COMMIT_MESSAGE" value="Класс для работы с компаниями" />
   </component>
 </project>
