@@ -7,10 +7,13 @@ from src.vacancy import Vacancy
 from src.hh_company import HeadHunterCompany
 from src.hh_vacancy import HeadHunterVacancy
 from config import config
-def get_and_save_company_data(database_name: str, params: dict, companies_ids=None):
+
+companies_ids = []
+
+
+def get_and_save_company_data(database_name: str, params: dict):
     """ 
     Функция получает и сохраняет данные о компаниях с hh.ru в БД
-    :param companies_ids: 
     """
 
     companies_list = []
@@ -45,7 +48,7 @@ def get_and_save_company_data(database_name: str, params: dict, companies_ids=No
     bar.finish()
 
 
-def get_and_save_vacancy_data(database_name: str, params: dict, companies_ids=None):
+def get_and_save_vacancy_data(database_name: str, params: dict):
     """
     Функция получает и сохраняет данные о вакансиях с hh.ru в БД
     """
@@ -93,7 +96,7 @@ def create_database(database_name: str, params: dict) -> None:
     Создание БД и таблиц для сохранения данных о компаниях и вакансиях
     """
 
-    conn = psycopg2.connect(dbname='postgres', **params)
+    conn = psycopg2.connect(dbname='postgre', **params)
     conn.autocommit = True
     cur = conn.cursor()
 

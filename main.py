@@ -1,6 +1,7 @@
 from config import config
 from src.utils import create_database, user_request, get_and_save_company_data, get_and_save_vacancy_data
 
+
 def main():
     """
     Запуск программы

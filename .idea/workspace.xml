@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="04ef6490-23d9-4d12-8026-de899678a035" name="Changes" comment="Класс для подключения к БД 2-й коммит">
-      <change afterPath="$PROJECT_DIR$/datebase.ini" afterDir="false" />
+    <list default="true" id="04ef6490-23d9-4d12-8026-de899678a035" name="Changes" comment="коммит">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/datebase.ini" beforeDir="false" afterPath="$PROJECT_DIR$/datebase.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +42,9 @@
     &quot;accountId&quot;: &quot;53d40b2a-6dda-44e6-abb7-0d34194355e1&quot;
   }
 }</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/.venv/Lib/site-packages/psycopg2/__init__.py" root0="SKIP_INSPECTION" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
 }</component>
@@ -62,7 +67,7 @@
     "Python.hh_api.executor": "Debug",
     "Python.hh_company.executor": "Debug",
     "Python.hh_vacancy.executor": "Debug",
-    "Python.main.executor": "Debug",
+    "Python.main.executor": "Run",
     "Python.utils.executor": "Debug",
     "Python.vacancy.executor": "Debug",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -75,6 +80,28 @@
     </key>
   </component>
   <component name="RunManager" selected="Python.main">
+    <configuration name="config" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="course_work_5" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/config.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="employer" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="course_work_5" />
       <option name="ENV_FILES" value="" />
@@ -111,28 +138,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/hh_api.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="hh_vacancy" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="course_work_5" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/hh_vacancy.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -209,11 +214,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.config" />
         <item itemvalue="Python.hh_api" />
         <item itemvalue="Python.employer" />
         <item itemvalue="Python.vacancy" />
         <item itemvalue="Python.utils" />
-        <item itemvalue="Python.hh_vacancy" />
       </list>
     </recent_temporary>
   </component>
@@ -329,7 +334,15 @@
       <option name="project" value="LOCAL" />
       <updated>1723983012806</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="коммит">
+      <option name="closed" value="true" />
+      <created>1723997720816</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1723997720816</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -343,6 +356,7 @@
     <MESSAGE value="Класс для работы с вакансиями" />
     <MESSAGE value="Класс для подключения к БД 1-й коммит" />
     <MESSAGE value="Класс для подключения к БД 2-й коммит" />
-    <option name="LAST_COMMIT_MESSAGE" value="Класс для подключения к БД 2-й коммит" />
+    <MESSAGE value="коммит" />
+    <option name="LAST_COMMIT_MESSAGE" value="коммит" />
   </component>
 </project>
