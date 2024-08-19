@@ -29,7 +29,7 @@ class Company:
         )
 
     @classmethod
-    def from_company_cls(cls, company_date: dict) -> Any:
+    def from_company_cls(cls, company_date) -> Any:
         """
         Метод возвращает экземпляр класса
         """
