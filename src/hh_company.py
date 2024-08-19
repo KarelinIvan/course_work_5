@@ -19,5 +19,5 @@ class HeadHunterCompany(GetCompaniesAPI):
         Метод выгружает данные
         """
         get_response = requests.get(self.__url, headers=self.headers)
-        data: object = get_response.json()
+        data = get_response.json()
         return data

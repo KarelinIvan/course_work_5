@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="04ef6490-23d9-4d12-8026-de899678a035" name="Changes" comment=" 7-й коммит" />
+    <list default="true" id="04ef6490-23d9-4d12-8026-de899678a035" name="Changes" comment="справление ошибок utils.py">
+      <change beforePath="$PROJECT_DIR$/src/hh_company.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/hh_company.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -353,7 +355,15 @@
       <option name="project" value="LOCAL" />
       <updated>1724000336403</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="справление ошибок utils.py">
+      <option name="closed" value="true" />
+      <created>1724038432478</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1724038432478</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -370,6 +380,7 @@
     <MESSAGE value="коммит" />
     <MESSAGE value=" 6-й коммит" />
     <MESSAGE value=" 7-й коммит" />
-    <option name="LAST_COMMIT_MESSAGE" value=" 7-й коммит" />
+    <MESSAGE value="справление ошибок utils.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="справление ошибок utils.py" />
   </component>
 </project>
