@@ -13,7 +13,6 @@ class HeadHunterCompany(GetCompaniesAPI):
         self.__url = f"https://api.hh.ru/employers/{employer_id}"
         self.headers = {"User-Agent": "HH-User-Agent"}
 
-    @property
     def load_data(self):
         """
         Метод выгружает данные
