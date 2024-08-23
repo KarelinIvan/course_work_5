@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="04ef6490-23d9-4d12-8026-de899678a035" name="Changes" comment="справление ошибок 3-й коммит">
+    <list default="true" id="04ef6490-23d9-4d12-8026-de899678a035" name="Changes" comment="справление ошибок 4-й коммит">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -64,7 +64,7 @@
     &quot;Python.hh_api.executor&quot;: &quot;Debug&quot;,
     &quot;Python.hh_company.executor&quot;: &quot;Debug&quot;,
     &quot;Python.hh_vacancy.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.main.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
     &quot;Python.utils.executor&quot;: &quot;Debug&quot;,
     &quot;Python.vacancy.executor&quot;: &quot;Debug&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
@@ -379,7 +379,15 @@
       <option name="project" value="LOCAL" />
       <updated>1724065204179</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="справление ошибок 4-й коммит">
+      <option name="closed" value="true" />
+      <created>1724298968169</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1724298968169</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -399,7 +407,8 @@
     <MESSAGE value="справление ошибок utils.py" />
     <MESSAGE value="справление ошибок utils.py 2-й коммит" />
     <MESSAGE value="справление ошибок 3-й коммит" />
-    <option name="LAST_COMMIT_MESSAGE" value="справление ошибок 3-й коммит" />
+    <MESSAGE value="справление ошибок 4-й коммит" />
+    <option name="LAST_COMMIT_MESSAGE" value="справление ошибок 4-й коммит" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

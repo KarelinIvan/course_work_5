@@ -40,7 +40,7 @@ class Vacancy:
                 )
 
     @classmethod
-    def from_vacancy_cls(cls, vacancy_date: dict, vacancy_data=None) -> Any:
+    def from_vacancy_cls(cls, vacancy_date: dict ) -> Any:
         """
         Метод возвращает экземпляр класса в виде словаря
         """
@@ -51,15 +51,15 @@ class Vacancy:
             salary_currency = salary.get("currency", "Нет данных") if salary else "Нет данных"
 
             return cls(
-                vacancy_data["name"],
-                vacancy_data["alternate_url"],
+                vacancy_date["name"],
+                vacancy_date["alternate_url"],
                 salary_from,
                 salary_to,
                 salary_currency,
-                vacancy_data["employer"]["id"],
-                vacancy_data["area"]["name"],
-                vacancy_data["snippet"].get("requirement", "Нет данных о требованиях"),
-                vacancy_data["snippet"].get("responsibility", "Нет данных об обязанностях")
+                vacancy_date["employer"]["id"],
+                vacancy_date["area"]["name"],
+                vacancy_date["snippet"].get("requirement", "Нет данных о требованиях"),
+                vacancy_date["snippet"].get("responsibility", "Нет данных об обязанностях")
             )
         else:
             print("Ошибка: данные компании должны быть словарем")
