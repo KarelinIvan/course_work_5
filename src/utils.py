@@ -23,6 +23,8 @@ def get_and_save_company_data(database_name: str, params: dict):
         widgets=['Загрузка компании: ', progressbar.Percentage(), ' ', progressbar.Bar(marker=' '), ' ',
                  progressbar.ETA()]
     )
+
+    bar.start()
     for i, company_id in enumerate(companies_ids):
         company = HeadHunterCompany(company_id)
         companies_list.append(company.load_data())
@@ -35,6 +37,8 @@ def get_and_save_company_data(database_name: str, params: dict):
         widgets=['Сохранение данных: ', progressbar.Percentage(), ' ', progressbar.Bar(marker=' '), ' ',
                  progressbar.ETA()]
     )
+
+    bar.start()
     for i, company in enumerate(companies):
         companies_data = {
             "employer_id": company.employer_id,
@@ -60,6 +64,8 @@ def get_and_save_vacancy_data(database_name: str, params: dict):
         widgets=['Загрузка вакансии: ', progressbar.Percentage(), ' ', progressbar.Bar(marker=' '), ' ',
                  progressbar.ETA()]
     )
+
+    bar.start()
     for i, vacancies_id in enumerate(companies_ids):
         vacancy = HeadHunterVacancy(vacancies_id)
         vacancies_list.extend(vacancy.load_data())
@@ -72,6 +78,8 @@ def get_and_save_vacancy_data(database_name: str, params: dict):
         widgets=['Сохранение данных: ', progressbar.Percentage(), ' ', progressbar.Bar(marker=' '), ' ',
                  progressbar.ETA()]
     )
+
+    bar.start()
     for i, vacancy in enumerate(vacancies):
         vacancy_data = {
             "vacancy_name": vacancy.name,
